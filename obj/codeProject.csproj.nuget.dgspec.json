@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/apexbugfinder/Documents/codePractice/leetCode/codeProject/codeProject.csproj": {}
+  },
+  "projects": {
+    "/home/apexbugfinder/Documents/codePractice/leetCode/codeProject/codeProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/apexbugfinder/Documents/codePractice/leetCode/codeProject/codeProject.csproj",
+        "projectName": "codeProject",
+        "projectPath": "/home/apexbugfinder/Documents/codePractice/leetCode/codeProject/codeProject.csproj",
+        "packagesPath": "/home/apexbugfinder/.nuget/packages/",
+        "outputPath": "/home/apexbugfinder/Documents/codePractice/leetCode/codeProject/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/apexbugfinder/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "Unitest": {
+              "target": "Package",
+              "version": "[0.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/apexbugfinder/.dotnet/sdk/6.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
